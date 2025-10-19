@@ -511,6 +511,7 @@ border-top: none;
     display: flex;
     gap: 24px;
     align-items: center;
+    margin-left: 80px;
 }
 
 .footer-form-name {
@@ -520,6 +521,7 @@ font-weight: 500;
     letter-spacing: 0.02em;
     color: #ffffff;
     margin-bottom: 16px;
+    margin-left: 80px;
 }
 
 .footer-form-input {
