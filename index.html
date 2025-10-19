@@ -450,9 +450,12 @@
           </ul>
         </div>
 
-        <form class="footer-form" name="subscribe-form">
-          <div class="subscribe-form">
-            <label for="subscribe-email">Subcribe</label>
+        <div class="footer-form-container">
+          <p class="footer-form-name">Subscribe</p>
+          <form class="footer-form" name="subscribe-form">
+            <label class="visually-hidden" for="subscribe-email"
+              >Subcribe</label
+            >
             <input
               class="footer-form-input"
               type="email"
@@ -460,14 +463,15 @@
               id="subscribe-email"
               name="subscribe-email"
             />
-          </div>
-          <button class="footer-form-btn" type="submit">
-            Subscribe
-            <svg class="footer-btn-icon" width="24" height="20">
-              <use href="./images/icons#send" />
-            </svg>
-          </button>
-        </form>
+
+            <button class="footer-form-btn" type="submit">
+              Subscribe
+              <svg class="footer-btn-icon" width="24" height="24">
+                <use href="./images/icons.svg#send" />
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <!--Modal-->
