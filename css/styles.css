@@ -670,6 +670,10 @@ background-color: #404bbf;
     margin-bottom: 8px;
 }
 
+.modal-form-field-comment {
+    margin-bottom: 16px;
+}
+
 .modal-form-wrapper {
     position: relative;
 }
